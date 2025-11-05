@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tools Hub • Fast, Private, Useful</title>
+  <meta name="description" content="A fast, privacy-first collection of tools: JSON formatter, Base64 encoder/decoder, and more.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Tools Hub</div>
+    <nav>
+      <a href="./index.html">Home</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Fast, Private, Useful Tools</h1>
+    <p class="small">Everything runs in your browser — nothing is uploaded.</p>
+
+    <div class="grid" style="margin-top:20px">
+      <div class="card">
+        <h3>JSON Formatter</h3>
+        <p>Pretty print, minify, validate, copy, and download JSON.</p>
+        <a class="btn" href="./tools/json-formatter.html">Open</a>
+      </div>
+
+      <div class="card">
+        <h3>Base64 Encoder/Decoder</h3>
+        <p>Encode text/files to Base64 and decode back.</p>
+        <a class="btn" href="./tools/base64.html">Open</a>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- AFFILIATE SECTION
+    <div class="notice">
+      <strong>Recommended:</strong> <a href="https://example.com/aff?ref=XXXX">Awesome Dev Tool</a> – speeds up your workflow. (Affiliate)
+    </div>
+    -->
+
+    <div class="footer">
+      © <span id="y"></span> Tools Hub. Built for speed and privacy.
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
